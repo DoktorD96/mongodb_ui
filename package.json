@@ -14,6 +14,7 @@
     "axios": "^0.21.1",
     "bootstrap-daterangepicker": "^3.1.0",
     "chart.js": "^3.1.0",
+    "cross-env": "^7.0.3",
     "env-cmd": "^10.1.0",
     "jquery": "^3.6.0",
     "loadash": "^1.0.0",
@@ -31,8 +32,11 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+
+    
+    
+    "start": "cross-env HOST=tiktok.dev PUBLIC_URL=http://tiktok.dev/ react-scripts start",
+    "build": "cross-env PUBLIC_URL=file:///E:/2.mongodbui/build/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "env-cmd -f production.env react-scripts build"
