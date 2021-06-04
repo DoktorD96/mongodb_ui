@@ -176,7 +176,19 @@ function App() {
         searchable: false,
         filter: false,
         sort: true,
+        customBodyRender: (value) => {
+          try {
+            var a = new Date(parseInt(value) * 1000);
+            var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+            var year = a.getUTCFullYear();
+            var month = months[a.getUTCMonth()];
+            var date = a.getUTCDate();
+            return month + '/' + date + '/' + year;
+          } catch (e) { return value; }
+        }
       }
+
+
     },
     {
       label: "Prati",
