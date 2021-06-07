@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "https://doktord96.github.io/static/css/main.095f07c6.chunk.css",
+    "main.js": "https://doktord96.github.io/static/js/main.344d4f3a.chunk.js",
+    "main.js.map": "https://doktord96.github.io/static/js/main.344d4f3a.chunk.js.map",
+    "runtime-main.js": "https://doktord96.github.io/static/js/runtime-main.df66de86.js",
+    "runtime-main.js.map": "https://doktord96.github.io/static/js/runtime-main.df66de86.js.map",
+    "static/js/2.e6a18d0c.chunk.js": "https://doktord96.github.io/static/js/2.e6a18d0c.chunk.js",
+    "static/js/2.e6a18d0c.chunk.js.map": "https://doktord96.github.io/static/js/2.e6a18d0c.chunk.js.map",
+    "index.html": "https://doktord96.github.io/index.html",
+    "static/css/main.095f07c6.chunk.css.map": "https://doktord96.github.io/static/css/main.095f07c6.chunk.css.map",
+    "static/js/2.e6a18d0c.chunk.js.LICENSE.txt": "https://doktord96.github.io/static/js/2.e6a18d0c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df66de86.js",
+    "static/js/2.e6a18d0c.chunk.js",
+    "static/css/main.095f07c6.chunk.css",
+    "static/js/main.344d4f3a.chunk.js"
+  ]
+}
