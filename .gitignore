@@ -1,7 +1,7 @@
 
 .vscode/*
 package-lock.json
-/public/*
+
 /node_modules/*
 /sample_data/*
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
